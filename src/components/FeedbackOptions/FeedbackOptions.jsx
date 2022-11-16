@@ -1,7 +1,7 @@
-import { BtnContainer, Btn } from "./FeedbackOpt.styled";
+import { BtnContainer, Btn } from "./FeedbackOptions.styled";
 
 
-export default function FeedbackOpt({ options }) {
+export function FeedbackOptions({ options }) {
     return (
         <BtnContainer>
       <Btn onClick={options} id='1'>Good</Btn>

@@ -2,7 +2,7 @@ import { PropTypes } from 'prop-types';
 
 import { StatisticContainer, Title, TextContent } from "./Statistics.styled";
 
-export default function Statistics({good, neutral, bad, total, positivePercentage}) {
+export function Statistics({good, neutral, bad, total, positivePercentage}) {
     return (
         <StatisticContainer>
         <Title>Statistics</Title>
